@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint:js": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "lint:css": "stylelint \"**/*.{css,scss,less}\"",
+    "lint:css": "stylelint \"**/*.css\"",
     "preview": "vite preview",
     "prepare": "husky"
   },
@@ -38,8 +38,6 @@
     "postcss": "^8.4.35",
     "prettier": "^3.2.5",
     "stylelint": "^16.2.1",
-    "stylelint-config-idiomatic-order": "^10.0.0",
-    "stylelint-config-prettier": "^9.0.5",
     "stylelint-config-standard": "^36.0.0",
     "typescript": "^5.2.2",
     "vite": "^5.1.4"
